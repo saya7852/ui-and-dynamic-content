@@ -1,0 +1,58 @@
+<!-- A02 - UI and Dynamic Content - MTM1526
+This is an HTML file for above assignment
+submitted by Masayo Williams -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+        
+    <!-- stylesheet for this page -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <!-- add background img (food-img.jpg) in css -->
+    <div class="beach">
+        <header>
+            <!-- add masthead here 
+            Required: image & tagline <p> -->
+            <div class="h-contents">
+                <img class="cart" src="./img/cart2.png">
+                <h1>SHOPPING<br>LIST</h1>
+                <h3>Buy these things today:</h3>
+            </div>
+        </header>
+    
+        <form action="post">
+            <input type="text" id="entry" placeholder="Add your item here..." autofocus>
+            <input type="submit" id="btn" value="ADD ITEM TO LIST">
+        </form>
+    
+        <section>
+            <ol class="added-items">
+                <!-- output added list items here -->
+            </ol>
+            <p class="feedback">
+                <!-- output feedback here -->
+            </p>
+            <hr>
+        </section>
+        <footer>
+            <!-- add social media x3 here -->
+            <div class="social">
+                <a href="https://www.facebook.com/"><img class="icon" src="./img/fb-logo.png" alt="facebook icon"></a>
+                <a href="https://www.instagram.com"><img class="icon" src="./img/ins-logo.png" alt="instagram icon"></a>
+                <a href="https://www.twitter.com"><img class="icon" src="./img/tw-logo.png" alt="twitter icon"></a>
+
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
