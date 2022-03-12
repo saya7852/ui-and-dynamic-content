@@ -30,9 +30,9 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 .beach {
+    background-color: #76b9b9;
     background-image: url(./img/beach-img.jpg);
     background-size: cover;
-    background-color: #76b9b9;
 }
 header {
     padding-top: 1rem;
