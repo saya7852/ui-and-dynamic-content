@@ -1,0 +1,131 @@
+/* STYLESHEET for A02 - UI and Dynamic Content
+This is a stylesheet for the above submitted by Masayo Williams */
+
+/* GENERAL STYLES
+
+****** FONTS ******
+Headings: Segoe UI
+Body:
+
+****** COLOURS ******
+Primary: #000000
+Secondary: #76b9b9
+Secondary: #bebebe
+
+****** LAYOUT ******
+max-width: 45rem
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    max-width: 45rem;
+}
+
+body {
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.beach {
+    background-image: url(../img/beach-img.jpg);
+    background-size: cover;
+}
+header {
+    padding-top: 1rem;
+}
+
+.cart {
+    display: block;
+    margin: 0 auto;
+    padding-right: 2rem;
+    width: 12rem;
+}
+
+h1, h3 {
+    text-shadow: #e8f0ed 1px 2px 5px;
+    text-align: center;
+    font-weight: 700;
+}
+
+form, section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 2rem;
+    padding-top: 0;
+    margin-bottom: 1rem;
+}
+
+input {
+    width: 100%;
+    margin: 0.5rem auto;
+    padding: 0.8rem;
+    font-size: 0.75rem;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+#entry {
+    box-shadow: 1px 1px 2px 1px #bebebe inset;
+}
+
+#btn {
+    background-color: #76b9b9;
+    color: black;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.h-contents {
+    margin: 2rem auto;
+    margin-bottom: 0;
+}
+
+ol {
+    margin-bottom: 2rem;
+    padding-inline-start: 0;
+}
+
+li {
+    list-style-position: inside;
+    padding-bottom: 1rem;
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+li:not(:last-child) {
+    border-bottom: 1px solid #bebebe;
+}
+
+.feedback {
+    color: red;
+}
+
+hr {
+    border-top: 1px dotted #bebebe;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 25px;
+    height: auto;
+    margin: 1rem;
+}
+
+footer {
+    padding-bottom: 2rem;
+}
