@@ -30,7 +30,7 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 .beach {
-    background-image: url(./img/beach-img.jpg);
+    background-image: url(../img/beach-img.jpg);
     background-size: cover;
 }
 header {
