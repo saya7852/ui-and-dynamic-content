@@ -32,7 +32,7 @@ body {
 }
 
 .beach {
-    background-image: url(./img/beach-img.jpg);
+    background-image: url(../img/beach-img.jpg);
     background-size: cover;
 }
 header {
